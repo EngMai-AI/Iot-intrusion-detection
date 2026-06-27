@@ -1,2 +1,19 @@
-# Iot-intrusion-detection
-This project is an AI-based Intrusion Detection System for IoT networks. It uses a Deep Learning (ANN) model to detect and classify network traffic as normal or malicious. The system includes data preprocessing, model training, and a Streamlit web app for real-time predictions and interactive visualization.
+# IoT Intrusion Detection System 🔐
+
+AI-powered system for detecting intrusion in IoT networks using Deep Learning.
+
+## Features
+- ANN model for classification
+- Real-time prediction
+- Streamlit dashboard
+
+## Tech Stack
+- Python
+- TensorFlow
+- Streamlit
+- Scikit-learn
+
+## How to Run
+```bash
+pip install -r requirements.txt
+streamlit run app.py
